@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="public/styles1.css">
+</head>
+<body>
+    <h1>Weather Dashboard</h1>
+        <div class="container">
+            <div class="weather-input">
+                <h3>Enter City name</h3>
+                <input type="text" class="city-input" placeholder="london">
+                <button class="search-btn">Search</button>
+                <div class="separator"></div>
+                <button class="location-btn">Use Current Location</button>
+            </div>
+            <div class="weather-data">
+                <div class="current-weather">
+                    <div class="details">
+                        <h2>_____(______)</h2>
+                        <h4>Temp:__</h4>
+                        <h4>Wind:__</h4>
+                        <h4>Humidity:__</h4>
+                    </div>
+                    <div class="icon">
+                        <img src="http://openweathermap.org/img/wn/10d@4x.png" alt="weather-condition">
+                        <h4>_____</h4>
+                    </div>
+                </div>
+            
+                <div class="days-forecast">
+                    <h2>5-Days Forecast</h2>
+                    <ul class="weather-cards">
+                        <li class="card">
+                            <h2>( ________ )</h2>
+                            <img src="http://openweathermap.org/img/wn/10d@2x.png" alt="weather-condition">
+                            <h4>Temp: ___ </h4>
+                            <h4>Wind: ___ </h4>
+                            <h4>Humidity: ___ </h4>
+                        </li><li class="card">
+                            <h2>( ________ )</h2>
+                            <img src="http://openweathermap.org/img/wn/10d@2x.png" alt="weather-condition">
+                            <h4>Temp: ___ </h4>
+                            <h4>Wind: ___ </h4>
+                            <h4>Humidity: ___ </h4>
+                        </li><li class="card">
+                            <h2>( ________ )</h2>
+                            <img src="http://openweathermap.org/img/wn/10d@2x.png" alt="weather-condition">
+                            <h4>Temp: ___ </h4>
+                            <h4>Wind: ___ </h4>
+                            <h4>Humidity: ___ </h4>
+                        </li><li class="card">
+                            <h2>( ________ )</h2>
+                            <img src="http://openweathermap.org/img/wn/10d@2x.png" alt="weather-condition">
+                            <h4>Temp: ___ </h4>
+                            <h4>Wind: ___ </h4>
+                            <h4>Humidity: ___ </h4>
+                        </li><li class="card">
+                            <h2>( ________ )</h2>
+                            <img src="http://openweathermap.org/img/wn/10d@2x.png" alt="weather-condition">
+                            <h4>Temp: ___ </h4>
+                            <h4>Wind: ___ </h4>
+                            <h4>Humidity: ___ </h4>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script type="module" src="index.js" defer></script>
+</body>
+</html>
